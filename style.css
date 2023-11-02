@@ -1,0 +1,86 @@
+* {
+    font-family: sans-serif !important;
+}
+
+header {
+    height: 104px;
+    background-color: #171D25;
+}
+
+#logo {
+    width: 176px;
+    height: 44px;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header-logo, .header-menu {
+    display: flex;
+    height: 104px;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+#header-menu-list {
+    color: #fff;
+    display: flex;
+}
+
+#header-menu-list li {
+    margin: 0 5px;
+    text-transform: uppercase;
+    border-bottom: 4px solid transparent;
+    margin-bottom: -4px;
+    position: relative;
+    cursor: pointer;
+}
+#header-menu-list li:hover {
+    border-color: #fff;
+}
+#header-menu-list li:hover .header-menu-list-submenu {
+    opacity: 1;
+    pointer-events: all;
+}
+#header-menu-list .active {
+    color: #1a9fff;
+    border-color: #1a9fff;
+}
+
+.header-menu-list-submenu {
+    position: absolute;
+    width: 100px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.header-menu-list-submenu li {
+    background-color: #3d4450;
+    padding: 10px;
+    font-size: 12px;
+    margin: 0 !important;
+    border-bottom: 0 !important;
+}
+.header-menu-list-submenu li:hover {
+    background-color: #fff;
+    color: #3d4450;
+    
+
+}
+
+#banner {
+    height: 453px;
+    background: url("./assets/images/wallpaper.jpeg") #000;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: fill;
+}
+
+
+
+
