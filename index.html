@@ -6,6 +6,7 @@
     <title>Bem-vindo(a) ao Steam</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/line-awesome/css/line-awesome.css">
   </head>
   <body>
     <header>
@@ -17,7 +18,7 @@
             alt="Logo steam"
           />
         </div>
-        <div class="header-menu">
+        <div class="header-menu flex-grow" style="flex-grow: 1;">
             <ul id="header-menu-list">
                 <li class="active">Loja</li>
                 <li>Comunidade</li>
@@ -39,7 +40,15 @@
             </ul>
 
         </div>
-        <div class="header-login"></div>
+        <div class="header-login">
+          <a id="btn-install">
+            Instale o Steam
+          </a>
+          <ul id="header-login-list">
+            <li class="br-1">Iniciar Sessão</li>
+            <li>Idioma</li>
+          </ul>
+        </div>
       </div>
     </header>
     <section id="banner">
